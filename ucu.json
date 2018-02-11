@@ -1,0 +1,6 @@
+{"type":"FeatureCollection","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[
+  {"type":"Feature","properties":{"FIPS":"UP","ISO2":"UCU","ISO3":"UCU","UN":804,"NAME":"Ukrainian Catholic University",
+    "LON":24.023,"LAT":49.817},"geometry":
+  {"type":"MultiPolygon","coordinates":[[[[24.024385, 49.816991],[24.022956, 49.816921],[24.020204, 49.817296],
+  [24.020334, 49.818538],[24.022098, 49.818271],[24.023669, 49.818166],[24.023837, 49.817973],[24.024726, 49.817806],
+  [24.025125, 49.817681],[24.025705, 49.817119], [24.024191, 49.816957]]]]}}]}
