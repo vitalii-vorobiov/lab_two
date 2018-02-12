@@ -60,7 +60,7 @@ for key, value in dictionary.items():
 # Creating population layer
 # -------------------------
 
-print("Adding population...")
+print("Adding population layer...")
 
 map_population = folium.FeatureGroup(name="Population in 2005")
 
@@ -74,6 +74,8 @@ map_population.add_child(folium.GeoJson(data=open('world.json', 'r', encoding='u
 # Creating Ukraine layer
 # ----------------------
 
+print("Adding Ukraine layer...")
+
 map_ukraine = folium.FeatureGroup(name="Ukraine")
 
 map_ukraine.add_child(folium.GeoJson(data=open('ukraine.json', 'r', encoding='utf-8-sig').read(),
@@ -82,6 +84,8 @@ map_ukraine.add_child(folium.GeoJson(data=open('ukraine.json', 'r', encoding='ut
 # ----------------------
 # Creating UCU layer
 # ----------------------
+
+print("Adding UCU layer...")
 
 map_ucu = folium.FeatureGroup(name="Ukrainian Catholic University")
 
